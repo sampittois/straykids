@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+* {
+    margin: 0pt;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-image: url(img/background.jpeg);
+}
+
+body {
+    font-size: 100%;
+    font-family: shadows into light;
+    color: darkgreen;
+}
+
+.row {
+    padding: 5pt;
+    align-items: center;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#logo {
+    max-width: 10%;
+    height: auto;
+}
+
+
+.col-6 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-around;
+    font-size: 20pt;
+}
+
+.p1 {
+    font-size: 30pt;
+}
+
+.p2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30pt;
+}
+
+.concept__photo__straykids {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0pt;
+
+}
+
+#play_button {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    align-content: center;
+}
+
+play_button:hover {
+    color: darkgreen;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+#profile {
+    margin: 50pt;
+    padding: 30pt;
+    justify-content: center;
+    font-size: 22pt;
+    text-align: center;
+}
+
+#members {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20pt;
+    text-align: center;
+}
+
+
+#weblinks {
+    text-align: center;
+    margin: 10pt;
+    font-size: 12pt;
+    font-family: arial;
+}
+
+#concerts {
+    margin: 50pt;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16ptx;
+}
+
+.circus{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5pt;
+}
+
+#play_button2{
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    align-content: center;
+}
+
+#music {
+    font-size: 50pt;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 15pt;
+}
+
+.newest{
+    margin: 50pt;
+}
+
+
+.albums {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.singles_and_EPs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#shop {
+    text-align: center;
+    font-size: 20pt;
+    padding: 30pt;
+    margin-top: 50pt;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 50%);
+    font-family: arial;
+    text-align: center;
+    padding: 5pt;
+}
